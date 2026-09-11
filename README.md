@@ -1,16 +1,65 @@
-# React + Vite
+# Wangi.in
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wangi.in adalah website toko parfum berbasis React yang dibuat sebagai project portfolio sekaligus sebagai konsep awal toko parfum online.
 
-Currently, two official plugins are available:
+Website ini memungkinkan pelanggan mencari parfum, melihat detail produk, memilih ukuran botol dan komposisi parfum, menentukan jumlah pembelian, melihat total harga, kemudian melakukan pemesanan melalui WhatsApp.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- 🔍 Pencarian parfum
+- 📦 Daftar produk parfum
+- 🧴 Detail produk
+- 📏 Pilihan ukuran 15 ML dan 30 ML
+- ⚗️ Pilihan komposisi parfum
+- ➕➖ Pengaturan jumlah pembelian
+- 💰 Perhitungan total harga otomatis
+- 📱 Pemesanan melalui WhatsApp
+- 📱 Responsive design
+- ☰ Responsive hamburger menu pada mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pricing
+
+Wangi.in menggunakan sistem harga berdasarkan ukuran botol dan komposisi parfum.
+
+### 15 ML
+
+| Komposisi | Harga |
+|-----------|------:|
+| Full Bibit | Rp30.000 |
+| 2:1 | Rp20.000 |
+| 1:1 | Rp15.000 |
+
+### 30 ML
+
+| Komposisi | Harga |
+|-----------|------:|
+| Full Bibit | Rp50.000 |
+| 2:1 | Rp35.000 |
+| 1:1 | Rp25.000 |
+
+## User Flow
+
+```text
+Home
+  ↓
+Cari parfum
+  ↓
+Pilih produk
+  ↓
+Detail produk
+  ↓
+Pilih ukuran & komposisi
+  ↓
+Pilih jumlah
+  ↓
+Total harga
+  ↓
+Pesan melalui WhatsApp
